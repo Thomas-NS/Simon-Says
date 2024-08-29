@@ -1,0 +1,125 @@
+   body{
+      background-color: #171717;
+    }
+    .heading{
+       font-family: "Orbitron", sans-serif;
+       font-size: 80px;
+       font-weight: bold;
+       color: white;
+       position: absolute;
+       top: 380px;
+       left: 60px;
+       text-shadow: 10px 10px 10px black;
+    }
+    p{
+       font-family: "Orbitron", sans-serif;
+       font-size: 20px;
+       color: white;
+       position: absolute;
+       top: 530px;
+       left: 60px;
+    }
+    .basecircle{
+        background-color: #373940;
+        height: 450px;
+        width: 450px;
+        border-radius: 50%;
+        position: absolute;
+        top: 310px;
+        left: 755px;
+        outline: 40px solid #1c1c1b;
+    }
+    .circle{
+        cursor: default;
+        background-image: radial-gradient(circle, transparent 50%, white 110%);
+        height: 250px;
+        width: 250px;
+        border: 15px solid rgb(55, 57, 64, 0.5);
+        border-radius: 50%;
+        outline: 10px solid #1c1c1b;
+    }
+    #circle1{
+        background-color: #97CC04;
+        position: absolute;
+        top: 180px;
+        left: 670px;
+    }
+    #circle2{
+        background-color: #DA2C38;
+        position: absolute;
+        top: 180px;
+        left: 1020px
+    }
+    #circle3{
+        background-color: #EEB902;
+        position: absolute;
+        top: 580px;
+        left: 670px
+    }
+    #circle4{
+        background-color: #2D7DD2;
+        position: absolute;
+        top: 580px;
+        left: 1020px
+    }
+    #start{
+        font-family: "Orbitron", sans-serif;
+        text-shadow: 3px 3px 5px white;
+        cursor: pointer;
+        border: 5px solid #4b4d4f;
+        background-color: #909396;
+        padding: 5px 10px 30px 10px;
+        font-size: 40px;
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        position: absolute;
+        top: 490px;
+        left: 880px;
+    }
+    #status{
+        background-color: red;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: absolute;
+        left: 970px;
+        top: 570px;
+    }
+    #score{
+        border: 5px solid #4b4d4f;
+        background-color: #909396;
+        padding: 5px;
+        width: 70px;
+        height: 45px;
+        border-radius: 10px;
+        position: absolute;
+        top: 490px;
+        left: 1090px;
+
+        font-family: "Orbitron", sans-serif;
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        padding-top: 10px;
+        text-shadow: 0 0 10px white;
+    }
+    #bestScore{
+        font-family: "Orbitron", sans-serif;
+        border: 5px solid #4b4d4f;
+        background-color: #909396;
+        padding: 5px;
+        width: 70px;
+        height: 45px;
+        border-radius: 10px;
+        position: absolute;
+        top: 490px;
+        left: 780px;
+
+        font-family: "Orbitron", sans-serif;
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        padding-top: 10px;
+        text-shadow: 0px 0px 10px white;
+    }
